@@ -1,1 +1,11 @@
 
+soc-level1/
+├── intro-to-cybersecurity/
+│   ├── notes.md
+│   └── screenshots/
+├── windows-fundamentals/
+│   ├── notes.md
+│   └── screenshots/
+├── network-monitoring/
+│   ├── logs.md
+│   └── notes.md
