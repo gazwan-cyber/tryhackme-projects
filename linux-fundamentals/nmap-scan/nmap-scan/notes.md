@@ -1,2 +1,3 @@
-![Nmap Scan](../../../screenshots/nmap-scan1.png)
+![Nmap Scan](../../screenshots/nmap-scan1.png)
+
 
