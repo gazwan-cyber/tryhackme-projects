@@ -1,1 +1,162 @@
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/gazwanalraoof/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/gazwanalraoof/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % brew install nmap
+zsh: command not found: brew
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % eval "$(/opt/homebrew/bin/brew shellenv)"
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % brew--version
+zsh: command not found: brew--version
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % brew --version
+Homebrew 4.5.8
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % brew install nmap
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/manifests/7.97
+######################################################################### 100.0%
+==> Fetching dependencies for nmap: liblinear, ca-certificates, openssl@3, libssh2, lua and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/liblinear/manifests/2.49
+######################################################################### 100.0%
+==> Fetching liblinear
+==> Downloading https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:b557d352
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-
+######################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:dd
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.5.1
+######################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:e14a37b5
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+######################################################################### 100.0%
+==> Fetching libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:4fd55e8973
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lua/manifests/5.4.8
+######################################################################### 100.0%
+==> Fetching lua
+==> Downloading https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:9279ae3479091e
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.45
+######################################################################### 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:f2abc87de679
+######################################################################### 100.0%
+==> Fetching nmap
+==> Downloading https://ghcr.io/v2/homebrew/core/nmap/blobs/sha256:3248afca88a66
+######################################################################### 100.0%
+==> Installing dependencies for nmap: liblinear, ca-certificates, openssl@3, libssh2, lua and pcre2
+==> Installing nmap dependency: liblinear
+==> Downloading https://ghcr.io/v2/homebrew/core/liblinear/manifests/2.49
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/c2c4fef546544e4feaee1ca3911d5ccbf705a7070f459aa30b81dd01761c5f7c--liblinear-2.49.bottle_manifest.json
+==> Pouring liblinear--2.49.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/liblinear/2.49: 10 files, 327.5KB
+==> Installing nmap dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/bc18acc15e0abddc102f828b57a29cfdbec1b6b002db37ad12bad9dbf0e9d12f--ca-certificates-2025-05-20.bottle_manifest.json
+==> Pouring ca-certificates--2025-05-20.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-05-20: 4 files, 225.8KB
+==> Installing nmap dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.5.1
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/9d8c8da104539ae29f198f366fe5794ac377d96a92458ae62557e3f83b03a351--openssl@3-3.5.1.bottle_manifest.json
+==> Pouring openssl@3--3.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.5.1: 7,563 files, 35.4MB
+==> Installing nmap dependency: libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/6d2495eb2b5f37f7931b23940ceb29db14a4742a49d1d8cce26964ad91a03f26--libssh2-1.11.1.bottle_manifest.json
+==> Pouring libssh2--1.11.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1: 201 files, 1.2MB
+==> Installing nmap dependency: lua
+==> Downloading https://ghcr.io/v2/homebrew/core/lua/manifests/5.4.8
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/cb2b54ca62f0ea5746e4075848ef00a6e9c7d36089fc7be0e188266aeb61a077--lua-5.4.8.bottle_manifest.json
+==> Pouring lua--5.4.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lua/5.4.8: 30 files, 806KB
+==> Installing nmap dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.45
+Already downloaded: /Users/gazwanalraoof/Library/Caches/Homebrew/downloads/bbac938545583185faba88567f1a952d7cc0b825820a2980533f7b3550dc31ad--pcre2-10.45.bottle_manifest.json
+==> Pouring pcre2--10.45.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.45: 242 files, 6.7MB
+==> Installing nmap
+==> Pouring nmap--7.97.arm64_sequoia.bottle.tar.gz
+==> Caveats
+If using `ndiff` returns an error about not being able to import the ndiff module, try:
+  chmod go-w /opt/homebrew/Cellar
+==> Summary
+🍺  /opt/homebrew/Cellar/nmap/7.97: 835 files, 28MB
+==> Running `brew cleanup nmap`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> nmap
+If using `ndiff` returns an error about not being able to import the ndiff module, try:
+  chmod go-w /opt/homebrew/Cellar
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % nmap 127.0.0.1
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-02 12:55 -0700
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000020s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+5432/tcp  open  postgresql
+7000/tcp  open  afs3-fileserver
+49152/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % nmap scanme.nmap.org
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-02 12:59 -0700
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.031s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 992 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % nmap -oN scanme .txt scanme .nmap.org
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-02 13:06 -0700
+Failed to resolve ".txt".
+Failed to resolve "scanme".
+Failed to resolve ".nmap.org".
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 4.96 seconds
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % nmap -oN scanme.txt scanme.nmap.org
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-02 13:06 -0700
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.032s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 992 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+Nmap done: 1 IP address (1 host up) scanned in 7.85 seconds
+(base) gazwanalraoof@Gazwans-MacBook-Pro ~ % 
 
