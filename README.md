@@ -88,6 +88,5 @@ This GitHub repo serves as a **documentation hub** of my learning, growth, and p
 
 ---
 
-## 💼 Connect With Me
-- 🔗 LinkedIn: [Your LinkedIn Link]
-- 📫 Contact: [Your Email or Portfolio Site]
+
+
